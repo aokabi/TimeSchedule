@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.aokabi.timeschedule.MainActivity">
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:stretchColumns="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <TableRow
+            android:id="@+id/tableRow"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <TextView
+                style="@style/TextViewStyle" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/TextViewStyle"
+                android:text="@string/one" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/TextViewStyle"
+                android:text="@string/two" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/TextViewStyle"
+                android:text="@string/three" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/TextViewStyle"
+                android:text="@string/four" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/TextViewStyle"
+                android:text="@string/five" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/TextViewStyle"
+                android:text="@string/monday" />
+
+            <EditText
+                android:id="@+id/EditTexthoge"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText2"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText3"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText4"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText5"
+                style="@style/EditStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/TextViewStyle"
+                android:text="@string/tuesday" />
+
+            <EditText
+                android:id="@+id/EditText6"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText7"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText8"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText9"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText10"
+                style="@style/EditStyle" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/textView9"
+                style="@style/TextViewStyle"
+                android:text="@string/wednesday" />
+
+            <EditText
+                android:id="@+id/EditText11"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText12"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText13"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText14"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText15"
+                style="@style/EditStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/textView10"
+                style="@style/TextViewStyle"
+                android:text="@string/thursday" />
+
+            <EditText
+                android:id="@+id/EditText16"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText17"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText18"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText19"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText20"
+                style="@style/EditStyle" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/TextViewStyle"
+                android:text="@string/friday" />
+
+            <EditText
+                android:id="@+id/EditText21"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText22"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText23"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText24"
+                style="@style/EditStyle" />
+
+            <EditText
+                android:id="@+id/EditText25"
+                style="@style/EditStyle" />
+
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
